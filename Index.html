@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Salud</title>
+    <meta charset="utf-8"/>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.css">
+          <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- My CSS -->
+    <link media="screen" href="css/style.css" type="text/css" rel="stylesheet">
+    <!-- Google fonts -->
+    <link type="text/css" rel="stylesheet" href="http://fonts.googleapis.com/css?family=Fjalla+One">
+    <link type="text/css" rel="stylesheet" href="http://fonts.googleapis.com/css?family=Average+Sans">
+    <!-- Google Analytics -->
+    <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+    ga('create', 'UA-44837892-1', 'danielrisso.com');
+    ga('send', 'pageview');
+    </script>
+    <!-- Jquery -->
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <!-- Javascript for Bootstrap Scrollspy -->
+    <script src="bootstrap/js/scrollspy.js"></script>
+
+    <script type="text/javascript">
+        $(document).ready(function() {
+            $('#content').scrollspy();
+            $('[data-spy="scroll"]').each(function () {
+              var $spy = $(this).scrollspy('refresh')
+            });
+        });
+    </script>
+  </head>
+
+  <body> data-offset='-100' data-spy="scroll" data-target="#navbar">
+    
+      <div id="global_wrapper">
+      <!-- Header -->
+      <div class="row header">
+        <div class="col-xs-12 col-xs-12 col-md-4">
+          <h1 id="name">Information For Life</h1>
+        </div>
+        <div id="navbar" class="col-xs-12 col-sm-12 col-md-8" >
+          <ul class="nav">
+            <li class="nav_link">
+              <a id="nav_bio" href="#video-container">Video</a>
+            </li>
+            <li class="nav_link">
+              <a id="nav_bio" href="#problems">Problems</a>
+            </li>
+            <li class="nav_link">
+              <a id="nav_work" href="#ideas">Ideas</a>
+            </li>
+            <li class="nav_link">
+              <a id="nav_photos" href="#solutios">Solutions</a>
+            </li>
+           </ul> 
+          </div>
+        </div>  
+        </div>
+  
+<div id="content" >      
+      <!-- CONTENT -->
+      <!-- VIDEO -->
+
+          <div id="video-container" style="width:100%; height: 600px; z-index: 0; background-color: rgb(16, 16, 16); 
+                    display: block; background-position: initial initial; background-repeat: initial initial;">
+                  <iframe src="//player.vimeo.com/video/46304267?title=0&amp;byline=0&amp;portrait=0&amp;color=ff4242&amp;autoplay=1"width="500" 
+                            height="600" frameborder="" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen="" style="width: 100%; height: 600;"></iframe>
+            </div>
+        
+
+          <div class="empty_space"></div>
+
+              <div class="text">
+              <div id="problems" class="section">
+                <h1>The Challenge for life</h1>
+                <p>Our principal audience . Hospitals and sick people from medium class.</p>
+                <p>The necessity of information for a group of persons that their knowledge is limited and live in remote populations, in order to solve the problems of as easy as difficult diseases.</p>
+                    <p>But most of the problems is that not every person in a community has access to technological resources, but they trust persons that really know, and that persons are often who have worked with them or assisted, like nurses and doctors.</p>
+                    <p>Also most of the information is not well validated, because depends of the physical and genetical information of each person, that means that not all the doctors treatments will have success in any person.</p>  
+              <p>Because nowadays there are different illnesses that some persons doesnt know, so if we help them by detecting the illness by symptoms in time, we migth reduce a bacteria or virus propagation in the region.</p>
+                
+              </div>
+              </div>
+
+
+                    <!-- IDEAS -->
+                    <div id="ideas" class="section">
+              <div class="category">
+
+                <h1>Ideas</h1>
+                <p>Database to access from web-app in order to get information about the symptoms of the illness that a person presents and a type of alert button to request help.
+	Also a little type of wiki and encyclopedia, with an easy way to use, being built based just by images.
+	The user is going to be able to decide if he wants to get registered in the web-app and have a medical registry in order to have all his basic information for future research about any other illness that migth be key to solve any other illness.
+	All the services are going to be free and the user that doesnt want to get registered is going to be able to access to the web-app and get informed about all the illnesses documented, in order to get a solution.</p>
+                <p>The necessity of information for a group of persons that their knowledge is limited and live in remote populations, in order to solve the problems of as easy as difficult diseases.</p>
+                 <p>So our idea is something like a web-app for doctors, something like an encyclopedia about illnesses for childrens, but all of this with the help of pictures or images, describing each illness that a person of that specific population may encounter according to their way of living with the corresponding symptoms by pictures.</p>
+                <p>In order to be presented for the people, it could be in a specific and most close part from their house, something like a shelter with a database, where each person could have their own database in order to improve illness analysis and improve the medications or treatments.</p>
+             </div>
+            </div>
+                    <!-- SOLUTIONS -->
+              <div id="solutios" class="section">
+              <div class="category2">
+                <h1>Solutions</h1>
+                <p>Self-medication.</p>
+                <p>Fast virus propagation.</p>
+	        <p>Conscious people.</p>
+	        <p>Expedite the medical assistance.</p>
+             </div>
+            </div>
+
+          <div class="empty_space"></div>
+</div>
+
+<div id="footer" class="row">
+          <div class="empty_space"></div>
+          <div class="empty_space"></div>
+          <div id="footer_social" class="">
+              <a href="http://www.facebook.com/rissoelliot">
+                  <img class="social_media" src="images/facebook.png">
+              </a>
+              <a href="http://twitter.com/risselliot">
+                  <img class="social_media" src="images/twitter.png">
+              </a>
+              <a href="http://plus.google.com/112213628520703871714/posts">
+                  <img class="social_media" src="images/googleplus.png">
+              </a>
+              <a href="http://www.linkedin.com/in/risselliot">
+                  <img class="social_media" src="images/linkedin.png">
+              </a>
+              <a href="http://github.com/rissell">
+                  <img class="social_media" src="images/github.png">
+              </a>
+          </div>
+          <div class="empty_space"></div>
+
+</div>
+
+
+</div>
+</div>
+</body>
+</html>
